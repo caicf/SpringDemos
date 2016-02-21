@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.test;
 
 import org.junit.After;
 import org.junit.Before;
