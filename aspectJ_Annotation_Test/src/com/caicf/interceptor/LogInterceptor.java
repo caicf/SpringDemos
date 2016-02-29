@@ -4,9 +4,9 @@ import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 @Aspect
-@Component
 public class LogInterceptor {
 	@Before("execution(public * com.caicf.service..*.*(..))")
 	public void before() {
